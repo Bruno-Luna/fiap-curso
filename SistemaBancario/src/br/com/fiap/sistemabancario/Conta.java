@@ -66,7 +66,5 @@ public class Conta implements Serializable{
 	public void setConta(int conta) {
 		this.conta = conta;
 	}
-	
-	
 
 }

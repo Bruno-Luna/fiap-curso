@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"br.com.dailytasks.configuration"},{"l":"br.com.dailytasks.controllers"},{"l":"br.com.dailytasks.models"},{"l":"br.com.dailytasks.models.utilities"},{"l":"br.com.dailytasks.repository"},{"l":"br.com.dailytasks.security"},{"l":"br.com.dailytasks.service"}];updateSearchResults();

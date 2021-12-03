@@ -1,0 +1,8 @@
+br.com.dailytasks
+br.com.dailytasks.configuration
+br.com.dailytasks.controllers
+br.com.dailytasks.models
+br.com.dailytasks.models.utilities
+br.com.dailytasks.repository
+br.com.dailytasks.security
+br.com.dailytasks.service
