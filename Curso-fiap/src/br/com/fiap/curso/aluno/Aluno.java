@@ -7,8 +7,11 @@ public class Aluno {
 
 	double nota1, nota2, nota3, nota4, notaFinal;
 	
-	public Aluno() {}
+	public Aluno() {} 
+	//Construtor padrão(vazio). Evitará erros ao chamar os atributos. Ao instânciar uma classe
+	// precisamos acrescentá-lo
 	
+	//Construtor de Classe que vai receber parametros e instruções.
 	public Aluno(int registro, String nome, double nota1, double nota2, double nota3, double nota4, double notaFinal) {
 		this.registro = registro;
 		this.nome = nome;
