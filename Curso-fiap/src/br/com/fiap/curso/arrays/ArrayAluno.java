@@ -10,12 +10,11 @@ public class ArrayAluno {
 		float soma = 0;
 		float[] nota = new float[3];
 		
-		for(int i = 0; i < 4; i++) {
+		for (int i = 0; i < 4; i++) {
 			System.out.println("Insira uma nota:");
-			nota[i] = scan.nextFloat();
-		}
+			nota[i] = scan.nextFloat();		
+			}
 		scan.close();
-		System.out.println("FIM.");
 		
 		for(int i = 0; i < nota.length; i++) {
 			soma += nota[i];
