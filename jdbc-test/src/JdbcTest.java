@@ -19,10 +19,10 @@ public class JdbcTest {
 		
 		try {
 			// 1.Recebe/faz a conexão do banco de dados
-			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "student", "22071991");
+			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo?UseSSL=false", "student", "22071991");
 			System.out.println("Conexão feita com sucesso!\n");
 		
-			// 2. Criação do 
+			// 2.  Cria um Statement Objeto para enviar instruções SQL ao banco de dados.
 			myStmt = myConn.createStatement();
 			
 			//3. Execução das query SQL
